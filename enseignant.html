@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Css style * BULMA * -->
+  <link rel="stylesheet" href="bulma-0.4.0\css\bulma.css">
+  <!-- Css style * PERSONAL WORK * -->
+  <link rel="stylesheet" href="css\enseignant.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Menu Selection -->
+  <script src="js\menu.js"></script>
+  <!-- Google fonts -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <!-- Font Awesome -->
+  <link rel ="stylesheet" href ="font-awesome-4.7.0\css\font-awesome.min.css">
+  <!-- Classic meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ahmed Amine Rassas">
+  <meta name="keywords" content="issat, issatso, LFSI-A1-02, Web Developpement, Responsive Web Design, HTML5, CSS, BULMA" />
+  <meta name="desciption" content="TP PROJECT">
+  <!-- page title -->
+  <title>Espace Enseignant</title>
+
+</head>
+<body>
+  <header>
+    <!-- Navigation Bar -->
+    <nav class="level">
+      <p class="level-item has-text-centered">
+        <a class="link is-info" href="home.html">Accueil</a>
+      </p>
+      <p class="level-item has-text-centered">
+        <a class="link is-info" href="home.html#departements">Departements</a>
+      </p>
+      <p class="level-item has-text-centered">
+        <a class="link is-info" href="clubs.html">Clubs</a>
+      </p>
+      <p class="level-item has-text-centered">
+        <img class="logo" src="images\issatso.png" alt="ISSAT SOUSSE LOGO">
+        <img class="logo" src="images\us.gif" alt="UNIVERSITE SOUSSE LOGO">
+      </p>
+      <p class="level-item has-text-centered">
+        <a class="link is-info" href="etudiant.html">Etudiant</a>
+      </p>
+      <p class="level-item has-text-centered">
+        <a class="link is-info">Enseignant</a>
+      </p>
+      <p class="level-item has-text-centered">
+        <a class="link is-info" href="home.html#contact">Contact</a>
+      </p>
+    </nav>
+    <!-- End of navigation Bar -->
+  </header>
+  <main class="container is-fluid">
+    <div class="columns">
+      <!-- Vertical Menu -->
+      <div class="column is-3">
+        <aside class="menu">
+          <p class="menu-label">
+            Administration
+          </p>
+          <ul class="menu-list">
+            <li><a href="emploi_ens.html" target="iframe-container" onclick="navselect(p1);" id="p1">Emploi du temps</a></li>
+            <li><a href="cours_ens.html" target="iframe-container" onclick="navselect(p2);" id="p2">Cours</a></li>
+          </ul>
+        </aside>
+      </div>
+      <!-- End of Vertical Menu -->
+      <!-- Content space -->
+      <div class="column is-9 container is-fluid">
+        <iframe src="welcome_ens.html" width="100%" height="1700px" scrolling="no" name="iframe-container"></iframe>
+      </div>
+      <!-- End of Content space -->
+    </div>
+  </main>
+  </body>
+</html>

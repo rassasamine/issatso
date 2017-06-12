@@ -1,0 +1,225 @@
+/* General
+Styles */
+body{
+  margin-top: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+header{
+  margin-bottom: 15px;
+}
+
+.logo{
+  max-width: 150px;
+  max-height: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#video{
+  width: 600px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* End of General
+Styles */
+
+
+/* News
+Styles */
+#actualites{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+#actu-title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.lol1{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.lol2{
+  margin-top: 50px;
+}
+
+.actu img{
+  width: 20%;
+}
+
+#newslogo{
+  width: 200px;
+  margin-top: 120px;
+}
+
+.lol3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.icon{
+  font-size: 3.5em !important ;
+  text-decoration: none;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  width: 2em;
+  height: 2em;
+  line-height: 2em !important;
+  text-align: center;
+}
+/* End of News
+Styles */
+
+#dep-title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Statistics
+Styles */
+
+#statistics{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px 3px 30px 30px;
+
+}
+
+/* End of Statistics
+Styles */
+
+/* Contact Form
+Styles */
+.contact-form {
+background: #f2f2f2;
+}
+
+#left-side{
+padding-left: 50px;
+}
+
+.form-sub-title{
+color: #000000;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 1.5em;
+font-weight: 700;
+text-transform: uppercase;
+margin: 0;
+letter-spacing: 2px;
+}
+
+.address-info{
+float: left;
+width: 80%;
+margin-left: 1em;
+color:#FFFFFF;
+}
+
+.address-icon-container{
+float:left;
+width:15%;
+}
+
+.address-icon{
+color: #ffffff;
+background: #8e3cfe;
+width: 40px;
+height: 40px;
+text-align: center;
+line-height: 40px !important;
+font-size: 1.2em !important;
+border-radius: 50%;
+}
+
+.address-info p {
+margin: 0;
+color: #999999;
+font-size: .9em;
+line-height: 1.8em;
+}
+
+.address-info p  a{
+color:#999999;
+text-decoration:none;
+}
+
+.address-info p a:hover{
+color:#8e3cfe;
+}
+
+#right-side{
+padding: 45px 0px 30px 50px;
+background: #e4e4e4;
+}
+
+.cool-inputs{
+font-size: .9em;
+color: #8c8c8c;
+padding: 0.5em 1em;
+border: 0;
+width: 100%;
+border-bottom: 1px solid #8c8c8c;
+background: none;
+outline: none;
+}
+
+.styled-input {
+width: 80%;
+margin: 2em 0 1em 1em;
+position: relative;
+float: left;
+}
+
+#send-button {
+outline: none;
+color: #000000;
+padding: 0.5em 3em;
+font-size: 0.9em;
+margin: 1em 0 0 0;
+background: none;
+border: 2px solid #000000;
+transition: 0.5s all;
+}
+
+#send-button:hover {
+background:#8e3cfe;
+color: #FFFFFF;
+border: 2px solid #8e3cfe;
+}
+/* End of Contact
+Form Styles */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+    border: none;
+    outline: none;
+    background-color: #8e3cfe;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+/* Rights
+styles */
+footer{
+  padding: 3rem 1.5rem 3rem !important;
+}
+/* End of Rights
+styles */
